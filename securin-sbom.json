@@ -1,0 +1,25 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:16574805-88dd-4930-b109-7e7688b669d8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-16T14:07:11.017Z",
+    "tools": [
+      {
+        "vendor": "Securin Inc.",
+        "name": "AppSec",
+        "version": "0.1.0"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Securin Team",
+        "email": "aspm@securin.io"
+      }
+    ]
+  },
+  "components": [],
+  "services": [],
+  "dependencies": []
+}

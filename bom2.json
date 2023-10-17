@@ -1,0 +1,1291 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:1471d0f4-d2c9-406f-a2eb-b926dec12268",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-10-16T08:19:31.494Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.8.10",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.8.10",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.8.10"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "Chessie",
+      "version": "0.6",
+      "licenses": [],
+      "purl": "pkg:nuget/Chessie@0.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Chessie@0.6"
+    },
+    {
+      "group": "",
+      "name": "Expecto",
+      "version": "9.0.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Expecto@9.0.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Expecto@9.0.4"
+    },
+    {
+      "group": "",
+      "name": "Fable.AST",
+      "version": "3.1.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.AST@3.1.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.AST@3.1.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.Blob",
+      "version": "1.1.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.Blob@1.1.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.Blob@1.1.4"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.Dom",
+      "version": "2.7",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.Dom@2.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.Dom@2.7"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.Event",
+      "version": "1.4.6",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.Event@1.4.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.Event@1.4.6"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.Gamepad",
+      "version": "1.0.3",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.Gamepad@1.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.Gamepad@1.0.3"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.Url",
+      "version": "1.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.Url@1.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.Url@1.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.WebStorage",
+      "version": "1.0.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.WebStorage@1.0.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.WebStorage@1.0.4"
+    },
+    {
+      "group": "",
+      "name": "Fable.Browser.XMLHttpRequest",
+      "version": "1.1.6",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Browser.XMLHttpRequest@1.1.6",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Browser.XMLHttpRequest@1.1.6"
+    },
+    {
+      "group": "",
+      "name": "Fable.Core",
+      "version": "3.7",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Core@3.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Core@3.7"
+    },
+    {
+      "group": "",
+      "name": "Fable.Elmish",
+      "version": "3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Elmish@3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Elmish@3.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Elmish.Browser",
+      "version": "3.0.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Elmish.Browser@3.0.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Elmish.Browser@3.0.4"
+    },
+    {
+      "group": "",
+      "name": "Fable.Elmish.Debugger",
+      "version": "3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Elmish.Debugger@3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Elmish.Debugger@3.3"
+    },
+    {
+      "group": "",
+      "name": "Fable.Elmish.HMR",
+      "version": "5.2",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Elmish.HMR@5.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Elmish.HMR@5.2"
+    },
+    {
+      "group": "",
+      "name": "Fable.Elmish.React",
+      "version": "3.0.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Elmish.React@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Elmish.React@3.0.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Fetch",
+      "version": "2.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Fetch@2.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Fetch@2.4"
+    },
+    {
+      "group": "",
+      "name": "Fable.FontAwesome",
+      "version": "2.0",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.FontAwesome@2.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.FontAwesome@2.0"
+    },
+    {
+      "group": "",
+      "name": "Fable.FontAwesome.Free",
+      "version": "2.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.FontAwesome.Free@2.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.FontAwesome.Free@2.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Mocha",
+      "version": "2.12",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Mocha@2.12",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Mocha@2.12"
+    },
+    {
+      "group": "",
+      "name": "Fable.Parsimmon",
+      "version": "4.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Parsimmon@4.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Parsimmon@4.1"
+    },
+    {
+      "group": "",
+      "name": "Fable.Promise",
+      "version": "3.1.3",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Promise@3.1.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Promise@3.1.3"
+    },
+    {
+      "group": "",
+      "name": "Fable.React",
+      "version": "7.4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.React@7.4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.React@7.4.3"
+    },
+    {
+      "group": "",
+      "name": "Fable.Remoting.Client",
+      "version": "7.19",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Remoting.Client@7.19",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Remoting.Client@7.19"
+    },
+    {
+      "group": "",
+      "name": "Fable.Remoting.Giraffe",
+      "version": "5.9",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Remoting.Giraffe@5.9",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Remoting.Giraffe@5.9"
+    },
+    {
+      "group": "",
+      "name": "Fable.Remoting.Json",
+      "version": "2.21",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Remoting.Json@2.21",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Remoting.Json@2.21"
+    },
+    {
+      "group": "",
+      "name": "Fable.Remoting.MsgPack",
+      "version": "1.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Remoting.MsgPack@1.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Remoting.MsgPack@1.16"
+    },
+    {
+      "group": "",
+      "name": "Fable.Remoting.Server",
+      "version": "5.29",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.Remoting.Server@5.29",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.Remoting.Server@5.29"
+    },
+    {
+      "group": "",
+      "name": "Fable.SimpleJson",
+      "version": "3.23",
+      "licenses": [],
+      "purl": "pkg:nuget/Fable.SimpleJson@3.23",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fable.SimpleJson@3.23"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.CommandLineParsing",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.CommandLineParsing@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.CommandLineParsing@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.Context",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.Context@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.Context@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.Environment",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.Environment@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.Environment@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.FakeVar",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.FakeVar@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.FakeVar@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.Process",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.Process@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.Process@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.ReleaseNotes",
+      "version": "5.23",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.ReleaseNotes@5.23",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.ReleaseNotes@5.23"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.SemVer",
+      "version": "5.23",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.SemVer@5.23",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.SemVer@5.23"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.String",
+      "version": "5.23",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.String@5.23",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.String@5.23"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.Target",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.Target@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.Target@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.Core.Trace",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.Core.Trace@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.Core.Trace@5.22"
+    },
+    {
+      "group": "",
+      "name": "Fake.IO.FileSystem",
+      "version": "5.22",
+      "licenses": [],
+      "purl": "pkg:nuget/Fake.IO.FileSystem@5.22",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fake.IO.FileSystem@5.22"
+    },
+    {
+      "group": "",
+      "name": "Farmer",
+      "version": "1.6.34",
+      "licenses": [],
+      "purl": "pkg:nuget/Farmer@1.6.34",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Farmer@1.6.34"
+    },
+    {
+      "group": "",
+      "name": "Feliz",
+      "version": "1.62",
+      "licenses": [],
+      "purl": "pkg:nuget/Feliz@1.62",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Feliz@1.62"
+    },
+    {
+      "group": "",
+      "name": "Feliz.Bulma",
+      "version": "2.18",
+      "licenses": [],
+      "purl": "pkg:nuget/Feliz.Bulma@2.18",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Feliz.Bulma@2.18"
+    },
+    {
+      "group": "",
+      "name": "Feliz.CompilerPlugins",
+      "version": "1.8",
+      "licenses": [],
+      "purl": "pkg:nuget/Feliz.CompilerPlugins@1.8",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Feliz.CompilerPlugins@1.8"
+    },
+    {
+      "group": "",
+      "name": "FParsec",
+      "version": "1.1.1",
+      "licenses": [],
+      "purl": "pkg:nuget/FParsec@1.1.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FParsec@1.1.1"
+    },
+    {
+      "group": "",
+      "name": "FSharp.Control.Reactive",
+      "version": "5.0.2",
+      "licenses": [],
+      "purl": "pkg:nuget/FSharp.Control.Reactive@5.0.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FSharp.Control.Reactive@5.0.2"
+    },
+    {
+      "group": "",
+      "name": "FSharp.Control.Websockets",
+      "version": "0.2.2",
+      "licenses": [],
+      "purl": "pkg:nuget/FSharp.Control.Websockets@0.2.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FSharp.Control.Websockets@0.2.2"
+    },
+    {
+      "group": "",
+      "name": "FSharp.Core",
+      "version": "6.0.3",
+      "licenses": [],
+      "purl": "pkg:nuget/FSharp.Core@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/FSharp.Core@6.0.3"
+    },
+    {
+      "group": "",
+      "name": "Fulma",
+      "version": "2.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Fulma@2.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Fulma@2.16"
+    },
+    {
+      "group": "",
+      "name": "Giraffe",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/Giraffe@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Giraffe@6.0"
+    },
+    {
+      "group": "",
+      "name": "Giraffe.ViewEngine",
+      "version": "1.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Giraffe.ViewEngine@1.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Giraffe.ViewEngine@1.4"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "version": "6.0.3",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.AspNetCore.Authentication.JwtBearer@6.0.3"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.CSharp",
+      "version": "4.7",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.CSharp@4.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.CSharp@4.7"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.JsonWebTokens@6.16"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IdentityModel.Logging",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Logging@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Logging@6.16"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IdentityModel.Protocols",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols@6.16"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IdentityModel.Protocols.OpenIdConnect",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Protocols.OpenIdConnect@6.16"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IdentityModel.Tokens",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IdentityModel.Tokens@6.16"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.IO.RecyclableMemoryStream",
+      "version": "2.2",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.IO.RecyclableMemoryStream@2.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.IO.RecyclableMemoryStream@2.2"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.NETCore.Platforms",
+      "version": "6.0.5",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NETCore.Platforms@6.0.5",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Platforms@6.0.5"
+    },
+    {
+      "group": "",
+      "name": "Microsoft.NETCore.Targets",
+      "version": "5.0",
+      "licenses": [],
+      "purl": "pkg:nuget/Microsoft.NETCore.Targets@5.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.NETCore.Targets@5.0"
+    },
+    {
+      "group": "",
+      "name": "Mono.Cecil",
+      "version": "0.11.4",
+      "licenses": [],
+      "purl": "pkg:nuget/Mono.Cecil@0.11.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Mono.Cecil@0.11.4"
+    },
+    {
+      "group": "",
+      "name": "NETStandard.Library",
+      "version": "2.0.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NETStandard.Library@2.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NETStandard.Library@2.0.3"
+    },
+    {
+      "group": "",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.1"
+    },
+    {
+      "group": "",
+      "name": "NuGet.Common",
+      "version": "6.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Common@6.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Common@6.3"
+    },
+    {
+      "group": "",
+      "name": "NuGet.Configuration",
+      "version": "6.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Configuration@6.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Configuration@6.3"
+    },
+    {
+      "group": "",
+      "name": "NuGet.Frameworks",
+      "version": "6.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Frameworks@6.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Frameworks@6.3"
+    },
+    {
+      "group": "",
+      "name": "NuGet.Packaging",
+      "version": "6.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Packaging@6.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Packaging@6.3"
+    },
+    {
+      "group": "",
+      "name": "NuGet.Versioning",
+      "version": "6.3",
+      "licenses": [],
+      "purl": "pkg:nuget/NuGet.Versioning@6.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/NuGet.Versioning@6.3"
+    },
+    {
+      "group": "",
+      "name": "Paket.Core",
+      "version": "8.0.0-alpha002",
+      "licenses": [],
+      "purl": "pkg:nuget/Paket.Core@8.0.0-alpha002",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Paket.Core@8.0.0-alpha002"
+    },
+    {
+      "group": "",
+      "name": "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.debian.9-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.fedora.27-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.fedora.28-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.native.System",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.native.System@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.native.System@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "runtime.native.System.Net.Http",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.native.System.Net.Http@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.native.System.Net.Http@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "runtime.native.System.Security.Cryptography.Apple",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.native.System.Security.Cryptography.Apple@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.native.System.Security.Cryptography.Apple@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.opensuse.42.3-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl",
+      "version": "4.3.3",
+      "licenses": [],
+      "purl": "pkg:nuget/runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/runtime.ubuntu.18.04-x64.runtime.native.System.Security.Cryptography.OpenSsl@4.3.3"
+    },
+    {
+      "group": "",
+      "name": "Saturn",
+      "version": "0.16.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Saturn@0.16.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Saturn@0.16.1"
+    },
+    {
+      "group": "",
+      "name": "System.Collections",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Collections@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Collections.Concurrent",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Collections.Concurrent@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections.Concurrent@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Collections.Immutable",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Collections.Immutable@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Collections.Immutable@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Diagnostics.Debug",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.Debug@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.Debug@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Diagnostics.DiagnosticSource",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.DiagnosticSource@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Diagnostics.Tracing",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Diagnostics.Tracing@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Diagnostics.Tracing@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Formats.Asn1",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Formats.Asn1@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Formats.Asn1@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Globalization",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Globalization@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Globalization@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Globalization.Calendars",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Globalization.Calendars@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Globalization.Calendars@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Globalization.Extensions",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Globalization.Extensions@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Globalization.Extensions@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "version": "6.16",
+      "licenses": [],
+      "purl": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.16",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IdentityModel.Tokens.Jwt@6.16"
+    },
+    {
+      "group": "",
+      "name": "System.IO",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.IO.FileSystem",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.FileSystem@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.FileSystem@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.IO.FileSystem.Primitives",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.IO.FileSystem.Primitives@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.IO.FileSystem.Primitives@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Linq",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Linq@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Linq@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Net.Http",
+      "version": "4.3.4",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Http@4.3.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Http@4.3.4"
+    },
+    {
+      "group": "",
+      "name": "System.Net.Http.WinHttpHandler",
+      "version": "6.0.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Http.WinHttpHandler@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Http.WinHttpHandler@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "System.Net.Primitives",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Net.Primitives@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Net.Primitives@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "System.Reactive",
+      "version": "5.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reactive@5.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reactive@5.0"
+    },
+    {
+      "group": "",
+      "name": "System.Reflection",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Reflection.Emit",
+      "version": "4.7",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection.Emit@4.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Emit@4.7"
+    },
+    {
+      "group": "",
+      "name": "System.Reflection.Emit.Lightweight",
+      "version": "4.7",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection.Emit.Lightweight@4.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Emit.Lightweight@4.7"
+    },
+    {
+      "group": "",
+      "name": "System.Reflection.Primitives",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Reflection.Primitives@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Reflection.Primitives@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Resources.ResourceManager",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Resources.ResourceManager@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Resources.ResourceManager@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.CompilerServices.Unsafe@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime.Extensions",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Extensions@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Extensions@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime.Handles",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Handles@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Handles@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime.InteropServices",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.InteropServices@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.InteropServices@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Runtime.Numerics",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Runtime.Numerics@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Runtime.Numerics@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Algorithms",
+      "version": "4.3.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Algorithms@4.3.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Algorithms@4.3.1"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Cng",
+      "version": "5.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Cng@5.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Cng@5.0"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Csp",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Csp@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Csp@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Encoding",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Encoding@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Encoding@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.OpenSsl",
+      "version": "5.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.OpenSsl@5.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.OpenSsl@5.0"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Pkcs",
+      "version": "6.0.1",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Pkcs@6.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Pkcs@6.0.1"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.Primitives",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.Primitives@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.Primitives@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.ProtectedData",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.ProtectedData@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Security.Cryptography.X509Certificates",
+      "version": "4.3.2",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Security.Cryptography.X509Certificates@4.3.2",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Security.Cryptography.X509Certificates@4.3.2"
+    },
+    {
+      "group": "",
+      "name": "System.Text.Encoding",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.Encoding@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encoding@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Text.Encodings.Web",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.Encodings.Web@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Encodings.Web@6.0"
+    },
+    {
+      "group": "",
+      "name": "System.Text.Json",
+      "version": "6.0.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Text.Json@6.0.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Text.Json@6.0.3"
+    },
+    {
+      "group": "",
+      "name": "System.Threading",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Threading.Tasks",
+      "version": "4.3",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Tasks@4.3",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks@4.3"
+    },
+    {
+      "group": "",
+      "name": "System.Threading.Tasks.Extensions",
+      "version": "4.5.4",
+      "licenses": [],
+      "purl": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.Threading.Tasks.Extensions@4.5.4"
+    },
+    {
+      "group": "",
+      "name": "System.ValueTuple",
+      "version": "4.5",
+      "licenses": [],
+      "purl": "pkg:nuget/System.ValueTuple@4.5",
+      "type": "library",
+      "bom-ref": "pkg:nuget/System.ValueTuple@4.5"
+    },
+    {
+      "group": "",
+      "name": "Thoth.Fetch",
+      "version": "3.0.1",
+      "licenses": [],
+      "purl": "pkg:nuget/Thoth.Fetch@3.0.1",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Thoth.Fetch@3.0.1"
+    },
+    {
+      "group": "",
+      "name": "Thoth.Json",
+      "version": "6.0",
+      "licenses": [],
+      "purl": "pkg:nuget/Thoth.Json@6.0",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Thoth.Json@6.0"
+    },
+    {
+      "group": "",
+      "name": "Utf8Json",
+      "version": "1.3.7",
+      "licenses": [],
+      "purl": "pkg:nuget/Utf8Json@1.3.7",
+      "type": "library",
+      "bom-ref": "pkg:nuget/Utf8Json@1.3.7"
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}
